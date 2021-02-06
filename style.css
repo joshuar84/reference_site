@@ -1,0 +1,33 @@
+body {
+    background-color: cornflowerblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-image: url("./images/4K-Ultra-HD-Wallpapers-Free-HD-City.jpg");
+}
+table {
+    background-color: goldenrod;
+    margin: 0 auto;
+    width: 650px;
+}
+table th {
+    background-color: rgb(216, 107, 5);
+}
+.border {
+    border: 1px rgb(119, 2, 94) solid;
+}
+h1 {
+    color: cornflowerblue;
+}
+strong {
+    color: rgb(0, 128, 170);
+}
+em {
+    color: darkolivegreen;
+}
+span {
+    color: darkorchid;
+}
+section {
+    width: 650px;
+    margin: 0 auto;
+}

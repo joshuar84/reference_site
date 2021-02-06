@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Reference Sheet</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section>
+            <header>
+                <h1>How Link JavaScript & CSS Files<br>To Your HTML Document</h1>
+            </header>
+            <article>
+                <p>First you need all three documents; html file, JavaScript file, and CSS file saved to the same
+                    directory.</p>
+                <p>For the CSS file, create a <strong>&lt;link&gt;</strong> tag within the <strong>&lt;head&gt;</strong>
+                    tag. The link tag is a self-closing tag. It should include three attributes in any order. First is
+                    the <span>href</span> and set it equal to the relative path to the CSS file. Second is the
+                    <span>type</span> attribute, set equal to <em>"text/css"</em>. Lastly, the <span>rel</span>
+                    attribute should be equal to <em>"stylesheet"</em>.</p>
+                <p>To link the JavaScript file, create an opening and closing <strong>&lt;script&gt;</strong> tag before the closing <strong>&lt;/body&gt;</strong> tag. Then within the opening <strong>&lt;script&gt;</strong> tag add the following attributes. First a <span>src</span> attribute set equal to a relative path to the JavaScript file. Second, a <span>type</span> attribute set to <em>"text/javascript"</em>.</p>
+            </article>
+        </section>
+        <section id="semantic_tags">
+            <header>
+                <h1>Semantic HTML tags Reference Sheet</h1>
+            </header>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="border">TAG</th>
+                        <th class="border">NAME</th>
+                        <th class="border">DESCRIPTION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border">&lt;header&gt;</td>
+                        <td class="border">Header</td>
+                        <td class="border">Typically a group of introductory or navigational aids.</td>
+                    </tr>
+                    <tr>
+                        <td class="border">&lt;main&gt;</td>
+                        <td class="border">Main</td>
+                        <td class="border">Represents the dominant content of a document.</td>
+                    </tr>
+                    <tr>
+                        <td class="border">&lt;footer&gt;</td>
+                        <td class="border">Footer</td>
+                        <td class="border">Typically contains info about the author of the section, copyright data or
+                            links to related documents.</td>
+                    </tr>
+                    <tr>
+                        <td class="border">&lt;section&gt;</td>
+                        <td class="border">Section</td>
+                        <td class="border">Represents a standalone section — which doesn't have a more specific semantic
+                            element to represent it.</td>
+                    </tr>
+                    <tr>
+                        <td class="border">&lt;figure&gt;</td>
+                        <td class="border">Figure</td>
+                        <td class="border">represents self-contained content, potentially with an optional caption,
+                            which is specified using the &lt;figcaption&gt; element.</td>
+                    </tr>
+                    <tr>
+                        <td class="border">&lt;figcaption&gt;</td>
+                        <td class="border">Figure Caption</td>
+                        <td class="border">represents a caption or legend describing the rest of the contents of its
+                            parent &lt;figure&gt; element.</td>
+                    </tr>
+                    <tr>
+                        <td class="border">&lt;article&gt;</td>
+                        <td class="border">Article</td>
+                        <td class="border">Represents a self-contained composition in a document, page, application, or
+                            site, which is intended to be independently distributable or reusable (e.g., in
+                            syndication).</td>
+                    </tr>
+                    <tr>
+                        <td class="border">&lt;nav&gt;</td>
+                        <td class="border">Navigation</td>
+                        <td class="border">Represents a section of a page whose purpose is to provide navigation links,
+                            either within the current document or to other documents.</td>
+                    </tr>
+                    <tr>
+                        <td class="border">&lt;aside&gt;</td>
+                        <td class="border">Aside</td>
+                        <td class="border">Represents a portion of a document whose content is only indirectly related
+                            to the document's main content. Asides are frequently presented as sidebars or call-out
+                            boxes.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>
