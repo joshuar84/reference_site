@@ -19,7 +19,9 @@ h1 {
     color: cornflowerblue;
 }
 strong {
-    color: rgb(0, 128, 170);
+    color: rgb(1, 78, 104);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
 }
 em {
     color: darkolivegreen;
